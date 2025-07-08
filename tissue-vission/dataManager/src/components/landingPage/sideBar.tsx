@@ -35,12 +35,12 @@ const Sidebar: React.FC = () => {
       </Typography>
 
       {['000-0-001'].map((name) => (
-        <Accordion key={name} sx={{ mb: 1 }}>
+        <Accordion key={name} sx={{ mb: 1 }} onClick={() => navigateToDatasets(name)}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon sx={{ color: 'black' }} />}
             sx={{ display: 'flex', alignItems: 'center' }}
           >
-            <Typography variant="body2" onClick={() => navigateToDatasets(name)}>{name}</Typography>
+            <Typography variant="body2">{name}</Typography>
             <Box sx={{ flexGrow: 1 }} />
             <IconButton size="small" onClick={(e) => e.stopPropagation()}>
               <FolderIcon fontSize="small" sx={{ color: 'black' }} />
