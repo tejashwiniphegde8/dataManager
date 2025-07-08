@@ -1,6 +1,6 @@
 import { Paper, Divider, Stack, Chip, Tooltip, IconButton } from "@mui/material";
 import type { Dataset } from "./index";
-import React, { useState } from "react";
+import React from "react";
 import { LinearProgress, Box, Typography } from "@mui/material";
 import DownloadIcon from '@mui/icons-material/Download';
 import axios from "axios";

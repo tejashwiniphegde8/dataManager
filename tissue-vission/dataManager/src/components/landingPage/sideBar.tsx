@@ -1,10 +1,9 @@
-import { Box, Typography, Paper, Chip, Stack, IconButton, Accordion, AccordionSummary } from '@mui/material';
+import { Box, Typography, Chip, Stack, IconButton, Accordion, AccordionSummary } from '@mui/material';
 import DownloadIcon from '@mui/icons-material/Download';
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
 import FolderIcon from '@mui/icons-material/Folder';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { AccordionDetails } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 
 const Sidebar: React.FC = () => {
